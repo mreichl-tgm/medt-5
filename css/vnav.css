@@ -1,0 +1,36 @@
+/* CSS Document */
+
+.vnav ul{
+	margin: 0;
+	padding: 0;
+	background: #fff;
+}
+.vnav li{
+	list-style-type: none;
+/*	display: inline-block;*/
+	margin: 0;
+	padding: 0;
+}
+.vnav a,
+.vnav span,
+.vnav a:visited  {
+	display: block;
+	width: 100%;
+	min-height: 25px;
+	margin-top: 0.5em;
+	padding: 0.5em 0 0 1em;
+	text-decoration: none;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #eee;
+	background: #888;
+	-webkit-transition: all .25s ease-in;
+	transition: all .25s ease-in;
+
+}
+.vnav a:focus,
+.vnav a:hover,
+.vnav a:active {
+	color: #888;
+	background: #eee;
+}

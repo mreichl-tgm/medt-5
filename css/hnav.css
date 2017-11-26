@@ -1,0 +1,44 @@
+/* CSS Document */
+
+.hnav ul {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+}
+.hnav li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+.hnav a,
+.hnav span,
+.hnav a:visited {
+	display: block;
+	width: 100px;
+	margin: 0.6em 0 0 0;
+	padding: 0.4em;
+	text-decoration: none;
+	border: solid #000 1px;
+	color: #ccc;
+	background: #333;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 10px 10px 0 0;
+	box-shadow: 0px 5px 10px white inset;
+	-webkit-transition: all .25s ease-in;
+	transition: all .25s ease-in;
+}
+
+.hnav a:focus,
+.hnav a:hover {
+	color: #333;
+	background: #ccc;
+}
+
+.hnav a:focus,
+.hnav a:hover,
+.hnav a:active {
+	margin-top: 0;
+	padding: 1em 0.4em 0.4em; 
+}
