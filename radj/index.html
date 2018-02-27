@@ -1,47 +1,39 @@
-    <!DOCTYPE HTML>
-    <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Markus Reichl: Home</title>
-        <link href="../css/main.css" rel="stylesheet" type="text/css">
-    </head>
+<!doctype html>
+<html>
+<head>
+    <title>Space</title>
+    <meta charset="utf-8" />
+    <link rel="icon" href="favicon.ico" />
+    <style>
+    	html, body {
+    		margin: 0; padding: 0; overflow: hidden;
+    		width: 100%; height: 100%;
+    	}
 
-    <body>
-    <div class="wrap">
-      <div class="hnav spaceTop">
-        <ul>
-            <li><img src="../imgs/TGM_LogoQuadrat.png"/></li>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../radj/index.html">Radatz</a></li>
-            <li><a href="../tree/index.html">Trenner</a></li>
-            <li><a href="../wimr/index.html">Wimberger</a></li>
-        </ul>
-      </div>
-      <!-- ende:hnav -->
-      <div class="headline spaceTop">
-        <p class="headtext">Arbeit von Markus Reichl MEDT</p>
-        <p class="subtitle">Schuljahr 2017 / 2018</p>
-      </div>
-      <!-- ende:headline -->
-  <div class="vnav spaceTop">
-  	<ul>
-        <li><a href="#">Beispiel 01</a></li>
-        <li><a href="#">Beispiel 02</a></li>
-        <li><a href="#">Beispiel 03</a></li>
-        <li><a href="#">Beispiel 04</a></li>
-    </ul>
-  </div>
-  <!-- ende:vnav -->
-  <div class="content spaceTop">
-  	<div class="rahmen">
-    <h2>Space of Prof. Radatz</h2>
-    	</div>
-        <!-- ende:rahmen -->
-    </div>
-  <!--ende:content -->
-  <div class="footer spaceTop floatEnde">
-  	<img src="../imgs/footer.svg" width="100%" alt="Markus">
-  </div><!-- ende:footer --> 
-</div><!-- ende:wrap -->
+    	body { background-color: #1f2f3f; }
+    	object { position: absolute; }
+
+    	@keyframes rocket {
+    		from { right: 100%; }
+    		to { right: -500px; }
+    	}
+
+    	#stars { top: 5%; right: 5%; height: 300px; }
+    	#sandy { top: 50px; right: 20%; width: 200px; }
+    	#mossy { top: 150px; right: 30%; width: 150px; }
+    	#blue { top: 250px; right: 20%; width: 100px; }
+    	
+    	#rocket {
+    		top: 200px; width: 250px;
+    		animation: rocket 5s linear infinite;
+    	}
+    </style>
+</head>
+<body>
+	<object id="stars" data="stars.svg" type="image/svg+xml"></object>
+	<object id="sandy" data="sandy.svg" type="image/svg+xml"></object>	
+	<object id="mossy" data="mossy.svg" type="image/svg+xml"></object>	
+	<object id="blue" data="blue.svg" type="image/svg+xml"></object>	
+	<object id="rocket" data="rocket.svg" type="image/svg+xml"></object>
 </body>
 </html>
