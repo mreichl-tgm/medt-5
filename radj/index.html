@@ -5,24 +5,32 @@
     <meta charset="utf-8" />
     <link rel="icon" href="favicon.ico" />
     <style>
+        /* Remove margins and set page to full width / height */
     	html, body {
     		margin: 0; padding: 0; overflow: hidden;
     		width: 100%; height: 100%;
     	}
 
+        /* Set background */
     	body { background-color: #1f2f3f; }
-    	object { position: absolute; }
+        /* Adjust object settings */
+    	object { position: absolute; pointer-events: none; }
+        /* Make main element full width / height and relative */
+        main { position: relative; width: 100%; height: 100%; }
 
+        /* Rocket animation */
     	@keyframes rocket {
     		from { right: 100%; }
     		to { right: -500px; }
     	}
-
+        
+        /* Some planets */
     	#stars { top: 5%; right: 5%; height: 300px; }
     	#sandy { top: 50px; right: 20%; width: 200px; }
     	#mossy { top: 150px; right: 30%; width: 150px; }
     	#blue { top: 250px; right: 20%; width: 100px; }
     	
+        /* Flying rocket */
     	#rocket {
     		top: 200px; width: 250px;
     		animation: rocket 5s linear infinite;
@@ -30,10 +38,14 @@
     </style>
 </head>
 <body>
-	<object id="stars" data="stars.svg" type="image/svg+xml"></object>
-	<object id="sandy" data="sandy.svg" type="image/svg+xml"></object>	
-	<object id="mossy" data="mossy.svg" type="image/svg+xml"></object>	
-	<object id="blue" data="blue.svg" type="image/svg+xml"></object>	
-	<object id="rocket" data="rocket.svg" type="image/svg+xml"></object>
+<a href="https://github.com/mreichl-tgm/medt-5">
+<main>
+<object id="stars" data="stars.svg" type="image/svg+xml"></object>
+<object id="sandy" data="sandy.svg" type="image/svg+xml"></object>
+<object id="mossy" data="mossy.svg" type="image/svg+xml"></object>
+<object id="blue" data="blue.svg" type="image/svg+xml"></object>
+<object id="rocket" data="rocket.svg" type="image/svg+xml"></object>
+</main>
+</a>
 </body>
 </html>
