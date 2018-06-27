@@ -1,3 +1,5 @@
+**FULL DISCLAIMER:** I did not (thank god) create the main website, only the content!
+
 ## A00 Projektserver Website
 * Es ist selbstständig eine Website mit vorgegebenen Layout herzustellen.
 	* ...
